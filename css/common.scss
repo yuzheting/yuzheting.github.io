@@ -1,0 +1,39 @@
+.dn {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.mg0 {
+  margin:0;
+}
+
+.ws5 {
+  word-spacing: 5px;
+}
+
+.ml10 {
+  margin-left:10px;
+}
+
+.clearfloat:after {
+  display:block;
+  clear:both;
+  content:"";
+  visibility:hidden;
+  height:0
+}
+
+.clearfloat {
+  zoom:1
+}
