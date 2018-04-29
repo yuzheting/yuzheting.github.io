@@ -67,11 +67,11 @@ input::-webkit-input-placeholder {
         line-height: 50px;
         border-bottom: 1px solid #ededed;
         background-color:white;
-        &.finish{
+        &.finish {
           text-decoration:line-through;
           color:#c9c9c9;
         }
-        input{
+        input {
           margin:10px 20px 10px 10px;
           width: 30px;
           height: 30px;
@@ -81,12 +81,12 @@ input::-webkit-input-placeholder {
           border-radius:50%;
           cursor: pointer;
           outline: none;
-          &:checked{
+          &:checked {
             background:url("../images/gou.jpg") no-repeat center;
             border-color: lightseagreen;
           }
         }
-        .close{
+        .close {
           margin-right:20px;
           margin-top:15px;
           width:18px;
@@ -95,13 +95,13 @@ input::-webkit-input-placeholder {
           background:url("../images/cha.jpg") no-repeat center;
           opacity: 0.6;
           outline: none;
-          &:hover{
+          &:hover {
           opacity: 1;
           }
         }
       }
     }
-  .list{
+  .list {
     padding-top:10px;
     width:100%;
     height:30px;
@@ -110,20 +110,20 @@ input::-webkit-input-placeholder {
     box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.2);
     line-height:20px;
     font-size:14px;
-    li{
+    li {
         height:20px;
         cursor: pointer;
         margin-left:10px;
         float: left;
         text-align: center;
     }
-    .filter{
+    .filter {
       border-radius: 4px;
       &:hover{
         border:1px solid orange;
       }
     }
-    .Clear{
+    .Clear {
       margin-left:90px;
       &:hover{
         text-decoration: underline;
